@@ -51,3 +51,14 @@ li.dropdown {
 h1 {
 	margin-top: 20px;
 }
+
+.floatright {
+	float: right;
+}
+
+iframe {
+	width: 200;
+	height: 200;
+	border: dotted
+	
+}
