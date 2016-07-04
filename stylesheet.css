@@ -177,6 +177,10 @@ body {
 }
 
 .power-point {
-	margin-left : 10%
-	
+	margin-left : 25%;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
 }
