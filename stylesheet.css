@@ -4,6 +4,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+	border-radius: 12px;
+	
+	cursor: pointer;
 }
 
 li {
@@ -40,14 +43,30 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
+	;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
+	
 }
 
 h1 {
 	margin-top: 20px;
+}
+
+.floatright {
+	float: right;
+}
+
+iframe {
+	width: 66%;
+	height: 200;
+	display: block;
+	
 }
