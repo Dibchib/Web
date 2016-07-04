@@ -62,7 +62,7 @@ h1 {
 }
 
 h4 {
-	margin-left: 26%;
+	margin-left: 15%;
 	
 
 }
@@ -103,13 +103,14 @@ body {
 }	
 
 .page-title {
-	display: inline-block;
+	display: block;
 	border: none;
-	padding-right: 15%;
-	padding-left: 15%;
+	padding-right: 150px;
+	padding-left: 150px;
 	padding-top: 2px;
 	padding-bottom: 4px;
-	margin-left: 16%;
+	margin-left: 10%;
+	margin-right: 55%;
 	color: white;
 	background-color: #333;
 	border-radius: 5px;
@@ -117,8 +118,9 @@ body {
 	text-decoration: none;
 	text-align: center;
 	overflow: hidden;
-}
+	
 
+}
 .admin-login {
 	border-top : 0.5px solid #DCDCDC;
 	border-radius: 10px;
