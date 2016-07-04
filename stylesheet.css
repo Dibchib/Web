@@ -76,9 +76,9 @@ iframe {
 #calendar{
 	width: 20em;
 	height: 24em;
-	position: relative;
+	position: absolute;
 	overflow: hidden;
-	top: -500px;
+	top: 120px;
 	right: 30px;
 	border: none;
 	
