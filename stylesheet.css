@@ -4,7 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-	border-radius: 12px;
+	border-radius: 0px 0px 10px 10px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	cursor: pointer;
 
@@ -24,6 +24,7 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: red;
+	border-radius: 5%;
 	
 }
 
@@ -59,8 +60,15 @@ li.dropdown {
 }
 
 h1 {
-	margin-top: 20px;
+	
 	text-align: center;
+	font-family: Gadugi, cursive, serif, sans-serif;
+	background-color: #333;
+	color: white;
+	margin-top : 0;
+	margin-bottom: 0;
+	border-radius: 10px 10px 0px 0px;
+	
 }
 
 h4 {
@@ -72,6 +80,7 @@ h4 {
 .floatright {
 	float: right;
 }
+
 
 iframe {
 	width: 50%;
@@ -85,7 +94,7 @@ iframe {
 	width: 20em;
 	height: 24em;
 	position: absolute;
-	overflow: hidden;
+	
 	top: 150px;
 	right: 30px;
 	border: none;
@@ -96,12 +105,15 @@ iframe {
 	border: none;
 	border-top: 0.5px solid #DCDCDC;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	margin-left: 50px;
+	margin-left: 15%;
 	border-radius: 10px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
 body {
 	background-color: F8F8FF;
+	
 }	
 
 .page-title {
@@ -120,6 +132,7 @@ body {
 	text-decoration: none;
 	text-align: center;
 	overflow: hidden;
+	
 	
 
 }
@@ -147,11 +160,15 @@ body {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     font-size: 16px;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-	margin-left: 25%;
+	
+}
+.button:click {
+	border: red;
+	border-radius: 10px;
 }
 
 .button:hover {
@@ -163,24 +180,62 @@ body {
 #app-button-left{
 	float: left;
 	display: inline-block;
-	margin-left : 5%;
+	width: 27%;
 	border-radius : 10px;
-	width: 150px;
+	margin-left : 20%;
+	text-align: center;
+	
+	
 }
 
 #app-button-right{
-	float: left;
+	float: right;
 	display: inline-block;
-	margin-left : 10%;
+	width: 27%;
 	border-radius : 10px;
-	width: 150px;
+	margin-right : 20%;
+	text-align: center;
+	
 }
-
 .power-point {
 	margin-left : 25%;
+	border: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .link {
 	text-decoration: none;
-	color: black;
+	color: white;
+}
+
+#rounded {
+	border-radius: 10px;
+}
+
+#app-title {
+	margin-left: 25%;
+	padding-right: 20px;
+	
+	
+}
+
+#animate {
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#smaller-text {
+	font-size: 0.5em;
+}
+
+#guided-button {
+	font-size: 0.99em;
+	float: left;
+	display: inline-block;
+	width: 27%;
+	border-radius : 10px;
+	margin-left : 20%;
+	text-align: center;
+	padding: 15px;
+	
 }
