@@ -107,6 +107,8 @@ iframe {
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	margin-left: 15%;
 	border-radius: 10px;
+	width: 40%;
+	height: 250px;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
